@@ -9,7 +9,7 @@ dibawah ini adalah identitas praktikan yang mengerjakan praktikum setiap minggun
 
 ## Task List
 dibawah ini berisi status dari tugas yang diberikan setiap minggunya.
-[- [x] Praktikum minggu 1](https://github.com/gremlinflat/Praktikum-Web-RA/tree/minggu1) 
+- [ ] [Praktikum minggu 1](https://github.com/gremlinflat/Praktikum-Web-RA/tree/minggu1) 
 - [ ] Praktikum minggu 2
 - [ ] Praktikum minggu 3
 - [ ] Praktikum minggu 4
