@@ -1,13 +1,13 @@
-# Praktikum PemWeb RA
+# Praktikum PemWeb RA 
 Repository ini berisi tugas praktikum pemrograman web yang sudah dikerjakan & dikumpulkan setiap minggunya.
 
-## Identitas 
+## Identitas 👊😎
 dibawah ini adalah identitas praktikan yang mengerjakan praktikum setiap minggunya.
 | Nama | NIM | Kelas |
 | ------ | ------ | ------ |
 | Fahri Novaldi | 119140205 | RA |
 
-## Task List
+## Task List 👌✅
 dibawah ini berisi status dari tugas yang diberikan setiap minggunya.
 - [ ] [Praktikum minggu 1](https://github.com/gremlinflat/Praktikum-Web-RA/tree/minggu1) 
 - [ ] Praktikum minggu 2
