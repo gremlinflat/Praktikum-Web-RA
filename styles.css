@@ -48,18 +48,25 @@
     display: flex;
 }
 #konten{
-    padding: 2rem 4rem;
+    padding: 2rem 1rem 4rem 4rem;
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 60%;
 }
 #biodata{
-    margin-top: 1rem;
+    margin-top: 3rem;
     display: flex;
     flex-direction: row;
 }
+#biodata img{
+    height: 15rem;
+    border-radius: 100%;
+}
 #biodata-table{
+    margin-top: 1rem;
     margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 .biodata-item{
     font-weight: 700;
@@ -72,6 +79,40 @@
 #berita{
     display: flex;
     padding: 2rem 0;
-    width: 30%;
+    width: 40%;
     flex-direction: column;
+}
+.berita-item{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem 1rem 0;
+}
+.berita-item a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black ;
+    
+}
+.berita-item a img{
+    height: 5rem;
+    margin-right: 1rem;
+}
+
+#footer{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #183a1d;
+    align-items:center;
+    margin: 1rem;
+    padding: 1rem;
+    color: #fefbe9;
+}
+
+#footer h4{
+    margin: 0.25rem;
+}
+#footer p{
+    margin: 0.25rem 0 0 0;
 }
