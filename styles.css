@@ -3,6 +3,7 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #header {
     padding: 2rem;
     background-color: #fefbe9;
@@ -38,4 +39,39 @@
 }
 #navbar ul li:hover{
     background-color:#39395f ;
+}
+#page-body{
+    display: flex;
+    flex-direction: row;
+}
+.judul{
+    display: flex;
+}
+#konten{
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+#biodata{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+#biodata-table{
+    margin-left: 2rem;
+}
+.biodata-item{
+    font-weight: 700;
+    padding: 0.5rem;
+
+}
+.biodata-item span{
+    font-weight: 100;
+}
+#berita{
+    display: flex;
+    padding: 2rem 0;
+    width: 30%;
+    flex-direction: column;
 }
