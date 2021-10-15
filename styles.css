@@ -1,118 +1,46 @@
-*{
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
     margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-#header {
-    padding: 2rem;
-    background-color: #fefbe9;
-    font-family: Arial, Helvetica, sans-serif;
-    min-width: 100vw;
+
+#background {
     display: flex;
+    min-height: 100vh;
+    background-color: rgba(96,165,250,1);
+    justify-content: center;
     align-items: center;
-}
-#header img {
-    height: 5rem;
+
 }
 
-#header h1 {
-    color: #183a1d;
-    margin-left: 3rem;
-}
-#navbar {
-    display: flex;
-    background-color: #183a1d;
-    align-items: flex-start;
-}
-#navbar ul {
-    display: flex;
-    margin-left: 2rem;
-}
-#navbar ul li{
-    display: flex;
-    padding: 1rem 0.75rem;
-}
-#navbar ul li a {
-    text-decoration: none;
-    color: #fefbe9;
-}
-#navbar ul li:hover{
-    background-color:#39395f ;
-}
-#page-body{
-    display: flex;
-    flex-direction: row;
-}
-.judul{
-    display: flex;
-}
-#konten{
-    padding: 2rem 1rem 4rem 4rem;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-}
-#biodata{
-    margin-top: 3rem;
-    display: flex;
-    flex-direction: row;
-}
-#biodata img{
-    height: 15rem;
-    border-radius: 100%;
-}
-#biodata-table{
-    margin-top: 1rem;
-    margin-left: 2rem;
-    display: flex;
-    flex-direction: column;
-}
-.biodata-item{
+#header{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
     font-weight: 700;
-    padding: 0.5rem;
-
-}
-.biodata-item span{
-    font-weight: 100;
-}
-#berita{
-    display: flex;
-    padding: 2rem 0;
-    width: 40%;
-    flex-direction: column;
-}
-.berita-item{
-    display: flex;
-    flex-direction: row;
-    padding: 1rem 1rem 1rem 0;
-}
-.berita-item a{
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    color: black ;
-    
-}
-.berita-item a img{
-    height: 5rem;
-    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+    color: rgba(31,41,55,1);
 }
 
-#footer{
 
-    display: flex;
-    flex-direction: column;
-    background-color: #183a1d;
-    align-items:center;
-    margin: 1rem;
+.button{
+    margin-top: 16px;
+    display: block;
+    width: 100%;
     padding: 1rem;
-    color: #fefbe9;
+    border-radius: .25rem;
+    color: rgba(120,53,15,1);
+    font-weight: 700;
+    background-color: rgba(251,191,36,1);
+    border-width: 0;
+    border-style: solid;
+
+    transition-duration: .3s;
+    transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
 }
 
-#footer h4{
-    margin: 0.25rem;
-}
-#footer p{
-    margin: 0.25rem 0 0 0;
+.button:hover{
+    background-color: rgba(252,211,77,1);
+    color: rgba(146,64,14,1);
 }
