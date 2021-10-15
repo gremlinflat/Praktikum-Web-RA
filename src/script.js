@@ -1,8 +1,10 @@
+var fact_log = [1, 1];
 function factorial(num){
-    if (num === 0){ 
-        return 1; 
+    let anchor=1;
+    for(let i = 2; i <= num; i++){
+        anchor = anchor * i;
+        fact_log.push(anchor);
     }
-    else{ 
-        return num * factorial( num - 1 ); 
-    }
+    return anchor;
 }
+
