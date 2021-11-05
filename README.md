@@ -17,4 +17,4 @@ dibawah ini berisi status dari tugas yang diberikan setiap minggunya.
 - [ ] Praktikum minggu 6
 
 # WARNING ⚠️‼️
-## the repo is migrated to [This new repo] (https://github.com/gremlinflat/Prak-PEMWEB-RA-2021) 
+## the repo is migrated to [This new repo](https://github.com/gremlinflat/Prak-PEMWEB-RA-2021) 
